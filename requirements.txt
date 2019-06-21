@@ -5,6 +5,7 @@ Flask==1.0.3
 Flask-Cors==3.0.8
 Flask-JWT-Extended==3.18.2
 Flask-Login==0.4.1
+gunicorn==19.9.0
 itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
