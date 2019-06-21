@@ -31,7 +31,7 @@ def after_request(response):
 
 @app.cli.command()
 def migrate():
-    db.evolve(ignore_tables={'base_model'})
+    db.evolve(ignore_tables={'base_model'}, interactive=False) 
 
 @login_manager.user_loader
 def load_user(user_id):
