@@ -9,7 +9,7 @@ itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
 peewee==3.9.6
-peewee-db-evolve==3.7.0
+
 psycopg2-binary==2.8.3
 PyJWT==1.7.1
 python-dotenv==0.10.3

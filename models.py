@@ -1,10 +1,9 @@
 import os
 import peewee as pw
 import datetime
-from playhouse.postgres_ext import PostgresqlExtDatabase
 from flask_login import UserMixin
+from db import db
 
-db = PostgresqlExtDatabase(os.getenv('DATABASE'))
 
 class BaseModel(pw.Model):
     created_at = pw.DateTimeField(default=datetime.datetime.now)

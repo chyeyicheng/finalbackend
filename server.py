@@ -1,6 +1,7 @@
+from db import db
 import peeweedbevolve # new; must be imported before models
 from flask import Flask, render_template, request, jsonify
-from models import db, User, Item
+from models import User, Item
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import current_user, login_user, LoginManager, UserMixin, logout_user
 from flask_jwt_extended import (
